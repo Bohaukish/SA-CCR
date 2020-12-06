@@ -29,14 +29,15 @@ Steps:
   - adjusted notional
 
   - Effective Notional
+  
+    时间分桶，当bucket的时间越近，correlation的系数越大
 
 2. multiplier
 
-   multiplier = min(1;0.05 + 0.95*exp(M to M- collateral/2*0.95*add-on))
+   multiplier = min(1 ; 0.05 + 0.95 * exp(M to M - collateral/ 2 * 0.95 * add-on))
    
    delta那个公式用来干嘛的？？？
-   
-   
+      
 Dataset Description:
+   
 
-![](https://tva1.sinaimg.cn/large/0081Kckwly1gleqw9twimj312e0fq0wy.jpg)
