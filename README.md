@@ -33,3 +33,10 @@ Steps:
 2. multiplier
 
    multiplier = min(1;0.05 + 0.95*exp(M to M- collateral/2*0.95*add-on))
+   
+   delta那个公式用来干嘛的？？？
+   
+   
+Dataset Description:
+
+![](https://tva1.sinaimg.cn/large/0081Kckwly1gleqw9twimj312e0fq0wy.jpg)
