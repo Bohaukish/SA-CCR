@@ -12,7 +12,7 @@ Counterparty Credit Risk = alpha * (RC + PFE)
 
 V = the value of the derivative transactions in the netting set , C = the haircut value of the net collateral held.
 
-- For margined transactions, RC = max(V - C, 0), in this case, we use this formula only.
+- For margined transactions, RC = max(V(MTM) - C(Collateral), 0), in this case, we use margined transactions only.
 
 - For unmargined transactions, 
 
