@@ -36,7 +36,7 @@ Steps:
 
    multiplier = min(1 ; 0.05 + 0.95 * exp(M to M - collateral/ 2 * 0.95 * add-on))
    
-   delta那个公式用来干嘛的？？？
+   effective notional for each time bucket = adjusted notional * supervisory delta
       
 Dataset Description:
    
